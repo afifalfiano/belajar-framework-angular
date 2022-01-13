@@ -1,0 +1,22 @@
+.active {
+    font-weight: bold;
+    border-radius: 5px;
+    background: #b1b1b1;
+    text-align: center;
+    color: #383838;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    min-height: 50px;
+    text-align: center;
+}
+
+.menu div {
+    cursor: pointer;
+}
